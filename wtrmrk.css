@@ -1,0 +1,97 @@
+/*
+
+    Project Wtrmrk.css https://github.com/JoplayXYZ/Wtrmrkcss
+        Original Author: JoplayXYZ - https://joplay.xyz
+                      License: MIT - v0.1.0
+                        
+    ▄▄▌ ▐ ▄▌▄▄▄▄▄▄▄▄  • ▌ ▄ ·. ▄▄▄  ▄ •▄     ▄▄· .▄▄ · .▄▄ · 
+    ██· █▌▐█•██  ▀▄ █··██ ▐███▪▀▄ █·█▌▄▌▪   ▐█ ▌▪▐█ ▀. ▐█ ▀. 
+    ██▪▐█▐▐▌ ▐█.▪▐▀▀▄ ▐█ ▌▐▌▐█·▐▀▀▄ ▐▀▀▄·   ██ ▄▄▄▀▀▀█▄▄▀▀▀█▄
+    ▐█▌██▐█▌ ▐█▌·▐█•█▌██ ██▌▐█▌▐█•█▌▐█.█▌   ▐███▌▐█▄▪▐█▐█▄▪▐█
+     ▀▀▀▀ ▀▪ ▀▀▀ .▀  ▀▀▀  █▪▀▀▀.▀  ▀·▀  ▀ ▀ ·▀▀▀  ▀▀▀▀  ▀▀▀▀ 
+     
+*/
+
+/* Requires styles */
+.wtrmrk {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  pointer-events: none; 
+  user-select: none;
+  z-index: 9999;
+}
+
+.wtrmrk img {
+  opacity: 0.25;
+  width: 60px;
+  height: auto;
+  display: block;
+}
+
+
+/* Modifiers */
+
+.wtrmrk.rounded img {
+  border-radius: 12px;
+}
+
+.wtrmrk.small img {
+  width: 30px;
+}
+
+.wtrmrk.large img {
+  width: 120px;
+}
+
+.wtrmrk.faint img {
+  opacity: 0.1;
+}
+
+.wtrmrk.pixel img {
+  image-rendering: pixelated;
+}
+
+
+/* 5px shifts */
+
+.wtrmrk.shift-up-5 {
+  bottom: 5px;
+}
+.wtrmrk.shift-down-5 {
+  top: 5px;
+}
+.wtrmrk.shift-left-5 {
+  right: 5px;
+}
+.wtrmrk.shift-right-5 {
+  left: 5px;
+}
+
+
+/* 10px shifts */
+
+.wtrmrk.shift-up-10 {
+  bottom: 10px;
+}
+.wtrmrk.shift-down-10 {
+  top: 10px;
+}
+.wtrmrk.shift-left-10 {
+  right: 10px;
+}
+.wtrmrk.shift-right-10 {
+  left: 10px;
+}
+
+.wtrmrk.rotate img {
+  transform: rotate(-15deg);
+}
+
+
+/* Alignment stuff */
+
+.wtrmrk.bottom-right { bottom: 20px; right: 20px; top: auto; left: auto; }
+.wtrmrk.bottom-left  { bottom: 20px; left: 20px; top: auto; right: auto; }
+.wtrmrk.top-right    { top: 20px; right: 20px; bottom: auto; left: auto; }
+.wtrmrk.top-left     { top: 20px; left: 20px; bottom: auto; right: auto; }
