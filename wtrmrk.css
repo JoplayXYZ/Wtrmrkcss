@@ -15,8 +15,6 @@
 /* Requires styles */
 .wtrmrk {
   position: fixed;
-  bottom: 20px;
-  right: 20px;
   pointer-events: none; 
   user-select: none;
   z-index: 9999;
