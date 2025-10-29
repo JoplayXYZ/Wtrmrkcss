@@ -8,12 +8,15 @@ Project WTRMRK: A css file for having a cool looking watermark on your site
     ▐█▌██▐█▌ ▐█▌·▐█•█▌██ ██▌▐█▌▐█•█▌▐█.█▌   ▐███▌▐█▄▪▐█▐█▄▪▐█
      ▀▀▀▀ ▀▪ ▀▀▀ .▀  ▀▀▀  █▪▀▀▀.▀  ▀·▀  ▀ ▀ ·▀▀▀  ▀▀▀▀  ▀▀▀▀ 
 ```
+
 ## Examples:
 
 [![]()]
 ## Useage:
 
-### Import the CSS file using jsdelivr CDN
+### Importing
+
+Import the CSS file using jsdelivr CDN
 
 ```html
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/JoplayXYZ/Wtrmrkcss@latest/wtrmrk.css">
@@ -26,12 +29,13 @@ Project WTRMRK: A css file for having a cool looking watermark on your site
 The content of the div **has** to be an image
 
 Example Structure:
+
 ```html
 <div class="wtrmrk">
     <img src="https://minotar.net/helm/JoplaydotXYZ/60.png" alt="Watermark">
 </div>
-
 ```
+
 Example Structure with modifiers:
 
 - bottom-left
@@ -41,12 +45,13 @@ Example Structure with modifiers:
 - large
 
 - pixel
+
 ```html
 <div class="wtrmrk bottom-left rounded large pixel">
     <img src="https://minotar.net/helm/JoplaydotXYZ/60.png" alt="Watermark">
 </div>
-
 ```
+
 ### Alignment classes
 
 - bottom-right
